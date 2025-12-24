@@ -11,4 +11,4 @@ scrape_configs:
     metrics_path: /metrics
     static_configs:
       - targets:
-          - 'https://ballcoach-api-production.up.railway.app:8080'
+          - 'ballcoach-api-production.up.railway.app:443'
